@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Yeseva+One&display=swap');
+*{
+   
+    font-family: "Yeseva One", serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+main{
+    margin: 40px auto;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 20px;
+    width: 40%;
+    box-shadow: 0px 5px 15px rgba(0, 26, 82, 0.56) ;
+}
+
+.top{
+    text-align: center;
+}
+
+.top h1{
+    font-size: 50px;
+}
+.top p{
+    color: rgba(0, 0, 0, 0.384);
+}
+
+.timeline{
+    padding: 20px;
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 0.5fr 3px 1fr;
+    padding-top: 30px;
+}
+
+.date {
+    text-align: right;
+    padding-right: 30px;    
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.384);
+}
+
+.line{
+    position: relative;
+    background: black;
+    padding-bottom: 75px;
+}
+
+.point{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.text{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+button{
+    display: flex;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(81, 81, 81);
+}
+
+@media(max-width:600px){
+    main{
+        width: 50%;
+        padding: 50px;
+    }
+}
+
